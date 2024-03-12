@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be our Speaker</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
-    <header class="speaker-form-header">
-
-        <h1>Speaker Submission</h1>
-
-        <p>
-            <em>
-                Want to be speak at our online conference? Fill out this form. 
-            </em>
-        </p>
-
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Speaker Submission</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <header class='speaker-form-header'>
+      <h1>Speaker Submission</h1>
+      <p><em>Want to speak at our conference? Fill out
+        this form.</em></p>
     </header>
-    <form action="" method="" class="speaker-form">
-        <div class="form-row">
-            <label for="full-name">Name</label>
-            <input id="full-name" name="full-name" type="text">
-            <label for="email">Email</label>
-            <input for="email" name="email" type="email" placeholder="iskolar@pup.edu.ph"></label>
-            <fieldset class="legacy-form-row">
-                <legend>Type of Seminar</legend>
-                <input id="seminar-type-1" name= "seminar-type"  type="radio"  value="main-stage" checked/>
-                <label for="seminar-type-1" class="radio-label">Main Stages</label>
-                <input id="seminar-type-2" name= "seminar-type"  type="radio"  value="workshop"/>
-                <label for="seminar-type-2" class="radio-label">Workshop</label>
-            </fieldset>
-
+    <form action='' method='get' class='speaker-form'>
+        <div class='form-row'>
+            <label for='full-name'>Name</label>
+            <input id='full-name' name='full-name' type='text'/>
         </div>
+        <div class='form-row'>
+            <label for='email'>Email</label>
+            <input id='email'
+                    name='email'
+                    type='email'
+                    placeholder='iskolar@pup.edu.ph'/>
+        </div>
+        <fieldset class='legacy-form-row'>
+            <legend>Type of Talk</legend>
+            <input id='talk-type-1'
+                   name='talk-type'
+                   type='radio'
+                   value='main-stage' 
+                   checked />
+            <label for='talk-type-1' class='radio-label'>Main Stage</label>
+            <input id='talk-type-2'
+                   name='talk-type'
+                   type='radio'
+                   value='workshop'/>
+            <label for='talk-type-2' class='radio-label'>Workshop</label>
+          </fieldset>
     </form>
-
-    <p>Do you want to go back? <a href="index.html">Click Here!</a></p>
-</body>
+  </body>
 </html>
